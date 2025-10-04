@@ -1,0 +1,82 @@
+[colors]
+
+# Primary
+[colors.primary]
+background     = "#F4F4F5"   # Light off-white background
+foreground     = "#202124"   # Dark neutral for readability
+dim_foreground = "#767476"   # Dimmed text
+bright_foreground = "#202124"
+
+
+# Cursor
+[colors.cursor]
+text   = "#F4F4F5"           # Invert for clarity
+cursor = "#D66938"           # Fiery orange cursor
+
+[colors.vi_mode_cursor]
+text   = "#F4F4F5"
+cursor = "#BA6435"           # Deep copper cursor in vi-mode
+
+
+# Search highlights
+[colors.search.matches]
+foreground = "#202124"
+background = "#F7D383"       # Golden highlight
+
+[colors.search.focused_match]
+foreground = "#202124"
+background = "#E3884A"       # Burnt orange for focused
+
+
+# Footer bar / Hints
+[colors.footer_bar]
+foreground = "#202124"
+background = "#DDDBDD"       # Soft beige-gray
+
+[colors.hints.start]
+foreground = "#202124"
+background = "#F7D383"       # Golden yellow
+
+[colors.hints.end]
+foreground = "#202124"
+background = "#E3884A"       # Burnt orange
+
+
+# Selection
+[colors.selection]
+text       = "#202124"
+background = "#E99867"       # Soft warm orange
+
+
+# Normal ANSI
+[colors.normal]
+black   = "#767476"          # Dark neutral gray
+red     = "#D66938"          # Fiery orange-red
+green   = "#97969A"          # Soft gray-greenish neutral
+yellow  = "#F7D383"          # Golden yellow
+blue    = "#AEB1C0"          # Soft gray-blue
+magenta = "#BA6435"          # Copper
+cyan    = "#E99867"          # Warm orange-tan
+white   = "#F4F4F5"          # Off-white
+
+
+# Bright ANSI
+[colors.bright]
+black   = "#97969A"          # Mid-gray
+red     = "#E3884A"          # Burnt orange
+green   = "#CAD1E0"          # Pale cool gray
+yellow  = "#FFE39A"          # Bright warm yellow
+blue    = "#CAD1E0"          # Brighter cool gray
+magenta = "#E99867"          # Brighter warm orange
+cyan    = "#F7D383"          # Gold
+white   = "#FFFFFF"          # Pure white
+
+
+# Indexed accents
+[[colors.indexed_colors]]
+index = 16
+color = "#E99867"            # Warm orange accent
+
+[[colors.indexed_colors]]
+index = 17
+color = "#F7D383"            # Golden accent
