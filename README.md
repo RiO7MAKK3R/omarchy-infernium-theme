@@ -91,7 +91,7 @@ OR
 
 ```console
 
-omarchy-theme-install https://https://github.com/RiO7MAKK3R/omarchy-infernium-theme
+omarchy-theme-install https://github.com/RiO7MAKK3R/omarchy-infernium-theme
 
 ```
 
